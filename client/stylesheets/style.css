@@ -1,0 +1,9 @@
+.navbar-default {  background-color: #FADF1D; }
+.navbar-default .navbar-brand {  color: #fff;  }
+.events { width: 80%; margin: 0 auto;  }
+
+
+a { background: #FADF1D; color: #fff; }
+a:hover { color: aqua; text-decoration: none; }
+
+.date { padding-left: 5%;}
