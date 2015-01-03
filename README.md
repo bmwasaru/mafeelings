@@ -1,3 +1,3 @@
-# tukutane
+# Mafeelings
 
-Events App built on Meteor 
+Express yourself anonymously

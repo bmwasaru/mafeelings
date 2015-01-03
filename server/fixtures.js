@@ -1,16 +1,14 @@
-if (Events.find().count() == 0) {
+if (feelings.find().count() == 0) {
 
-    Events.insert({
-        title: 'Technology Exhibit',
-        host: 'Britone Mwasaru',
-        venue: 'Room I & J',
-        date: Date("February 4, 2015 12:00:00")
+    feelings.insert({
+        title: 'heartbreak',
+        feeling: 'She left after 3 weeks',
+        date: Date.now()
     });
 
-    Events.insert({
-        title: 'STEM confrence',
-        host: 'M-Power Ladies',
-        venue: 'Swahili Centre',
-        date: Date("January 10, 2015 11:13:00")
+    feelings.insert({
+        title: 'uninspired',
+        feeling: "Feeling like I don't want to do anything",
+        date: Date.now()
     });
 }

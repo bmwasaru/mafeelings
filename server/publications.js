@@ -1,3 +1,3 @@
-Meteor.publish('events', function() {
-    return Events.find();
+Meteor.publish('feelings', function() {
+    return feelings.find();
 })

@@ -1,1 +1,1 @@
-Meteor.subscribe('events');
+Meteor.subscribe('feelings');
