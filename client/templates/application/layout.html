@@ -1,0 +1,11 @@
+<template name="layout">
+  <div class="container">
+      <div class="header">
+          <a class="brand" href="{{pathFor 'feelingsList'}}">Mafeelings</a>
+      </div>
+      <!--#TODO Created navigation -->
+      <div id="main">
+        {{> yield }}
+      </div>
+  </div>
+</template>
