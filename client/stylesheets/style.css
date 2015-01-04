@@ -1,10 +1,18 @@
-.brand { font-size: larger; }
+body { font-family: Inconsolata,Menlo,monospace;}
+p { font-size: 20px; }
+
+.container { width: 70%; margin-top: 3%;}
+.brand { font-size: 350%; }
+.submit-link, .about-link { float: right; margin-top: 30px; font-size: 170%; padding-left: 5%;}
 .feelings { width: 80%; margin: 0 auto;  }
+.feeling-content { border-bottom: 1px solid #FADF1D; margin: 40px 0 40px 0; }
+.about { margin-top: 20px; line-height: 250%;}
 
-
-a { background: #FADF1D; color: #fff; }
-a:hover,m a:active, a:focus { color: aqua; text-decoration: none; }
-
-.date { padding-left: 5%;}
+a, .date { background: #fff200; color: #000; }
+a:hover,m a:active, a:focus { background: #FADF1D; color: #fff; text-decoration: none; }
 
 .not-found { width: 30%; margin: 0 auto; }
+
+.main.form { width: 50%; margin: 10% auto 10% auto;;}
+.btn-primary, .btn-primary:hover { color: #fff;  background-color: #fadf1d; border-color: #ffffff; }
+input[type=text]:focus { box-shadow: none; border-color: #fadf1d; }
