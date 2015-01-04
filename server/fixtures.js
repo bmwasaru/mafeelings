@@ -1,14 +1,16 @@
-if (feelings.find().count() == 0) {
+if (Feelings.find().count() == 0) {
 
-    feelings.insert({
+    now = new Date().getTime();
+
+    Feelings.insert({
         title: 'heartbreak',
         feeling: 'She left after 3 weeks',
-        date: Date.now()
+        date: now
     });
 
-    feelings.insert({
+    Feelings.insert({
         title: 'uninspired',
         feeling: "Feeling like I don't want to do anything",
-        date: Date.now()
+        date: new Date(now - 7*3600*1000)
     });
 }

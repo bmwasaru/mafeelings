@@ -1,3 +1,3 @@
 Meteor.publish('feelings', function() {
-    return feelings.find();
+    return Feelings.find();
 });
