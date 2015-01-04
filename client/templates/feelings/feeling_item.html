@@ -1,7 +1,8 @@
 <template name="feelingItem">
     <div class="feeling">
         <div class="feeling-content">
-            <h3><a href="{{url}}">{{feeling}}</a></h3>
+            <h3><a href="{{pathFor 'feelingPage'}}">{{title}}</a> on {{ submittedDate }}</h3>
+            <p>{{feeling}}</p>
         </div>
     </div>
 </template>

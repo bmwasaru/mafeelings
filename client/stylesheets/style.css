@@ -6,3 +6,5 @@ a { background: #FADF1D; color: #fff; }
 a:hover,m a:active, a:focus { color: aqua; text-decoration: none; }
 
 .date { padding-left: 5%;}
+
+.not-found { width: 30%; margin: 0 auto; }
