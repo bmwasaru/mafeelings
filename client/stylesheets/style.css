@@ -3,16 +3,56 @@ p { font-size: 20px; }
 
 .container { width: 70%; margin-top: 3%;}
 .brand { font-size: 350%; }
-.submit-link, .about-link { float: right; margin-top: 30px; font-size: 170%; padding-left: 5%;}
-.feelings { width: 80%; margin: 0 auto;  }
-.feeling-content { border-bottom: 1px solid #FADF1D; margin: 40px 0 40px 0; }
+.submit-link, .about-link { float: right; margin-top: 20px; font-size: 170%; padding-left: 5%;}
+.feelings { width: 80%; margin: 50px auto;  }
+.feeling-content { border-bottom: 1px solid #FADF1D; margin: 40px 80px 40px; }
+.feeling-content a { text-decoration: underline;}
 .about { margin-top: 20px; line-height: 250%;}
 
 a, .date { background: #fff200; color: #000; }
-a:hover,m a:active, a:focus { background: #FADF1D; color: #fff; text-decoration: none; }
+a:hover, a:active, a:focus { background: #FADF1D; color: #fff; text-decoration: none; }
 
 .not-found { width: 30%; margin: 0 auto; }
 
-.main.form { width: 50%; margin: 10% auto 10% auto;;}
-.btn-primary, .btn-primary:hover { color: #fff;  background-color: #fadf1d; border-color: #ffffff; }
+.main.form { width: 50%; margin: 10% auto 10% auto;}
+.btn-primary, .btn-primary:hover { color: #000;  background-color: #fadf1d; border-color: #ffffff; }
 input[type=text]:focus { box-shadow: none; border-color: #fadf1d; }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container { width: 80%; margin-top: 3%;}
+    .feelings { width: 100%; margin: 30% 0 0 0;  }
+    p { font-size: 20px; }
+    .submit-link, .about-link { margin-top: 20px; font-size: 120%; padding-left: 5%; text-decoration: underline;}
+    .brand { font-size: 150%; margin-left: 60px; }
+    .feeling-content {  width: 100%; margin: 40px 0; }
+    .feeling-content a { font-size: 110%;}
+    .feeling { width: 100%; }
+    .feeling-content .date { font-size: 80%; }
+    .about { margin-top: 80px; line-height: 200%;}
+    .main.form { width: 100%; margin: 30% auto 20% auto;}
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+    .container { width: 80%; margin-top: 3%;}
+    .feelings { width: 100%; margin: 30% 0 0 0;  }
+    p { font-size: 20px; }
+    .submit-link, .about-link { margin-top: 20px; font-size: 120%; padding-left: 10%; text-decoration: underline;}
+    .brand { font-size: 150%; margin-left: 60px; }
+    .feeling-content { margin-top: 10%; }
+    .feeling-content a { font-size: 80%; }
+    .feeling-content .date { font-size: 80%; }
+    .about { margin-top: 80px; line-height: 200%;}
+    .main.form { width: 100%; margin: 30% auto 20% auto;}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .container { width: 80%; margin-top: 3%;}
+    .feelings { width: 100%; margin: 10% 0 0 0;  }
+    p { font-size: 20px; }
+    .submit-link, .about-link { margin-top: 10px; font-size: 120%; padding-left: 10%; text-decoration: underline;}
+    .brand { font-size: 200%; margin-left: 0px; }
+    .feeling-content a { font-size: 100%;}
+    .feeling-content .date { font-size: 80%; }
+    .about { margin-top: 40px; line-height: 200%; margin-left: 40px;}
+    .main.form { width: 80%; margin: 10% auto 10% auto;}
+}
