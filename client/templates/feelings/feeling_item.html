@@ -3,6 +3,8 @@
         <div class="feeling-content">
             <h3><a href="{{pathFor 'feelingPage'}}">{{title}}</a><span class="date"> {{ prettifyDate date }}</span></h3>
             <p>{{feeling}}</p>
+            <a href="{{pathFor 'feelingPage'}}">{{commentsCount}} comments</a>
         </div>
+        <a href="{{pathFor 'feelingPage'}}" class="discuss btn btn-default">Comment</a>
     </div>
 </template>

@@ -17,6 +17,7 @@ a:hover, a:active, a:focus { background: #FADF1D; color: #fff; text-decoration: 
 .main.form { width: 50%; margin: 10% auto 10% auto;}
 .btn-primary, .btn-primary:hover { color: #000;  background-color: #fadf1d; border-color: #ffffff; }
 input[type=text]:focus { box-shadow: none; border-color: #fadf1d; }
+textarea.form-control{ border-color: #fadf1d; }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .container { width: 80%; margin-top: 3%;}
