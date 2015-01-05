@@ -7,7 +7,7 @@ p { font-size: 20px; }
 .feelings { width: 80%; margin: 50px auto;  }
 .feeling-content { border-bottom: 1px solid #FADF1D; margin: 40px 80px 40px; }
 .feeling-content a { text-decoration: underline;}
-.about { margin-top: 20px; line-height: 250%;}
+.about { margin-top: 20px; line-height: 250%; font-size: 140%;}
 
 a, .date { background: #fff200; color: #000; }
 a:hover, a:active, a:focus { background: #FADF1D; color: #fff; text-decoration: none; }
