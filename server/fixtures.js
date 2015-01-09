@@ -15,16 +15,16 @@ if (Feelings.find().count() == 0) {
     });
 }
 
-if (Comments.find() == 0) {
-    var feelingsId = Feelings.insert({
+if (Comments.find().count() == 0) {
+    var feelingId = Feelings.insert({
         title: 'Comments are here',
         feeling: "Finally, the commenting feature is here. We can now express our feelings toward another's feelins",
         date: now
     });
 
     Comments.insert({
-        feelingId: feelingsId,
+        feelingId: feelingId,
         submitted: now,
-        body: 'Awesome. That make this the first ever comment'
+        body: 'Awesome. That makes this the first ever comment'
     });
 }

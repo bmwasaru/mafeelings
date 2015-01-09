@@ -8,6 +8,8 @@ p { font-size: 20px; }
 .feeling-content { border-bottom: 1px solid #FADF1D; margin: 40px 80px 40px; }
 .feeling-content a { text-decoration: underline;}
 .about { margin-top: 20px; line-height: 250%; font-size: 140%;}
+.comments { margin-left: 5%;}
+.comments li { list-style: none; }
 
 a, .date { background: #fff200; color: #000; }
 a:hover, a:active, a:focus { background: #FADF1D; color: #fff; text-decoration: none; }
@@ -17,7 +19,7 @@ a:hover, a:active, a:focus { background: #FADF1D; color: #fff; text-decoration: 
 .main.form { width: 50%; margin: 10% auto 10% auto;}
 .btn-primary, .btn-primary:hover { color: #000;  background-color: #fadf1d; border-color: #ffffff; }
 input[type=text]:focus { box-shadow: none; border-color: #fadf1d; }
-textarea.form-control{ border-color: #fadf1d; }
+.form-control:focus { box-shadow:none; border-color: #fadf1d; }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .container { width: 80%; margin-top: 3%;}
