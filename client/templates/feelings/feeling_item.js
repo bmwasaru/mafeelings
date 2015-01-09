@@ -6,4 +6,4 @@ Template.feelingItem.helpers({
     commentsCount: function() {
         return Comments.find({feelingId: this._id}).count();
     }
-})
+});

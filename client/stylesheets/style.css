@@ -10,6 +10,9 @@ p { font-size: 20px; }
 .about { margin-top: 20px; line-height: 250%; font-size: 140%;}
 .comments { margin-left: 5%;}
 .comments li { list-style: none; }
+.comment {  display:block; float:right; margin-top:2px; background: #FFF200;}
+.btn-primary { margin-top: 10px; }
+.comment:hover, .comment:active, .comment:focus, .btn-primary:hover, .btn-primary:focus, .btn-primary:active { background: #FFF200; border-color: #FFF200;}
 
 a, .date { background: #fff200; color: #000; }
 a:hover, a:active, a:focus { background: #FADF1D; color: #fff; text-decoration: none; }

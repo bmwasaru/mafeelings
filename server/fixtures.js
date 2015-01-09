@@ -18,7 +18,7 @@ if (Feelings.find().count() == 0) {
 if (Comments.find().count() == 0) {
     var feelingId = Feelings.insert({
         title: 'Comments are here',
-        feeling: "Finally, the commenting feature is here. We can now express our feelings toward another's feelins",
+        feeling: "Finally, the commenting feature is here. We can now express our feelings toward others' feelings",
         date: now
     });
 
